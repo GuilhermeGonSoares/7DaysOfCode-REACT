@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10.16rem;
+    
+    .menu {
+        display: flex;
+        list-style: none;
+        font-size: 16rem;
+        gap: 10rem;
+        
+        li {
+            word-wrap: break-word;
+        }
+    }
+
+    .menu.dropdown {
+        display: none;
+      }
+      
+    button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    align-items: end;
+    }
+
+}

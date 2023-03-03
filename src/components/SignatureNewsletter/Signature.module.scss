@@ -1,0 +1,30 @@
+.texto {
+    position: absolute;
+    top: 210rem;
+    width: 462rem;
+
+
+    .info, .descricao{
+        font-family: 'Montserrat', sans-serif;
+        color: #202020;
+        font-weight: 400;
+        margin: 0;
+        line-height: 26rem;
+        opacity: 0.5;
+    }
+
+    .info {
+        font-size: 22rem;
+    }
+    .titulo {
+        font-size: 80rem;
+        font-weight: bold;
+        margin: 12rem 0 24rem 0;
+        font-family: 'Elsie Swash Caps', cursive;
+        line-height: 94px;
+    }
+
+    .descricao {
+        font-size: 16rem;
+    }
+}

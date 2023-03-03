@@ -1,0 +1,33 @@
+.signature {
+    margin-top: 37rem;
+    display: flex;
+    flex-direction: column;
+    
+    .inputContainer {
+      display: flex;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+      input, button {
+        padding: 0.5rem;
+        height: 75rem;
+        border: none;
+      }
+  
+      input {
+        padding-left: 12px;
+        width: 385rem;
+        background: #FFFFFF;
+        &::placeholder {
+            color: #202020;
+            font-family: 'Montserrat', sans-serif;
+            opacity: 0.3;
+        }
+      }
+  
+      .botao {
+        background: #FFCB47;
+        width: 200rem;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+      }
+    }
+  }
