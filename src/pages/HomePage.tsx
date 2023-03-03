@@ -8,10 +8,16 @@ import imageHero from '../assets/img/imagem-hero.png';
 function HomePage() {
   return (
     <main className={style.container}>
-      <img className={style.img} src={fundoAmarelo} alt="" />
+      <img className={style.fundoAmarelo} src={fundoAmarelo} alt="" />
       <Menu />
-      <SignatureNewsletter />
-      <img className={style.hero} src={imageHero} alt="" />
+      <div className={style.news}>
+        <div>
+          <SignatureNewsletter />
+        </div>
+        <div className={style.hero}>
+          <img src={imageHero} alt="" />
+        </div>
+      </div>
     </main>
   );
 }

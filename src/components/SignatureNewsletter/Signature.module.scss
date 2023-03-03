@@ -1,8 +1,7 @@
 .texto {
     position: absolute;
-    top: 210rem;
     width: 462rem;
-
+    margin-top: 110rem;
 
     .info, .descricao{
         font-family: 'Montserrat', sans-serif;
@@ -25,6 +24,6 @@
     }
 
     .descricao {
-        font-size: 16rem;
+        font-size: 15rem;
     }
 }
